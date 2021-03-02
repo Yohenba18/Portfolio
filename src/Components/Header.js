@@ -14,16 +14,16 @@ function Header() {
 
         <div className="header__right">
           <div className="header__options">
-            <h3>Title</h3>
+            <a href="">About Me</a>
           </div>
           <div className="header__options">
-            <h3>Title</h3>
+            <a href="">Projects</a>
           </div>
           <div className="header__options">
-            <h3>Title</h3>
+            <a href="">Hobbies</a>
           </div>
           <div className="header__options">
-            <h3>Title</h3>
+            <a href="">Contact Me</a>
           </div>
         </div>
       </div>
