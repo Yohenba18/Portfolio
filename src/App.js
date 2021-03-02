@@ -1,9 +1,16 @@
 import './App.css';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div className="App">
-      <h1>THIS IS FOR MY PORTFOLIO</h1>
+
+      {/* Header */}
+      <Header/>
+      {/*Hello */}
+      {/*About Me */}
+      {/*Projects */}
+      {/*Footer */}
     </div>
   );
 }
