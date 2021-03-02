@@ -6,15 +6,25 @@ function Header() {
     <div>
       <div className="header">
         <div className="header__left">
-          <div className="header__leftLogo">
-            <img src="" alt=""></img>
-          </div>
-          <div className="header__leftTitle">
-            <h3>Title</h3>
+          <img src="" alt="" />
+          <div className="header__title">
+            <h3>title</h3>
           </div>
         </div>
+
         <div className="header__right">
-          <h3>Title</h3>
+          <div className="header__options">
+            <h3>Title</h3>
+          </div>
+          <div className="header__options">
+            <h3>Title</h3>
+          </div>
+          <div className="header__options">
+            <h3>Title</h3>
+          </div>
+          <div className="header__options">
+            <h3>Title</h3>
+          </div>
         </div>
       </div>
     </div>

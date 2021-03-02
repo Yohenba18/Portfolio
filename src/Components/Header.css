@@ -1,4 +1,16 @@
 .header{
+    padding: 15px 20px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+
+}
+
+.header__right{
+    display: flex;
+    justify-content: space-evenly;
+
 }
