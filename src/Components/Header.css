@@ -7,10 +7,9 @@
     color: white;
     z-index: 100;
     top: 0;
-    
-
 }
 .header__left{
+    left: 10px;
     display: flex;
     margin: 2px 0;
     padding: 10px 20px;
@@ -22,6 +21,20 @@
     font-weight: 800;
 }
 
+.header__center{
+    display: flex;
+}
+
+.header__center .header__options {
+    padding: 10px 20px;
+
+}
+
+.header__center .header__options:hover {
+    border-bottom: 2px solid #2e81f4 ;
+    transition: ease-in;
+    transition-delay: 0.2s;
+}
 .header__right{
     display: flex;
 }

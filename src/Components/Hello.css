@@ -3,7 +3,8 @@
   display: flex;
   justify-content: space-evenly;
   height: 500px;
-  background-color:	whitesmoke;
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
 }
 
 .hello__left{
@@ -12,13 +13,14 @@
 
 .hello__left > h3{
     font-weight: bolder;
-    font-size:20px
+    font-size:30px
 }
 
 .hello__left > h1{
     color: #2E004D;
     font-weight: bolder;
-    font-size: 60px;
+    padding: 10px 0;
+    font-size: 70px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 

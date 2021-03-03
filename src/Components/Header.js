@@ -16,6 +16,23 @@ function Header() {
             <h2>Porfolio</h2>
           </div>
         </div>
+        <div className="header__center">
+          <div className="header__options">
+              <a href="#">
+                <h3>About Me</h3>
+              </a>
+            </div>
+            <div className="header__options">
+              <a href="#">
+                <h3>Projects</h3>
+              </a>
+            </div>
+            <div className="header__options">
+              <a href="#">
+               <h3>Hobbies</h3>
+              </a>
+            </div>
+        </div>
 
         <div className="header__right">
           <div className="header__options">

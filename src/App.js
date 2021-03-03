@@ -13,7 +13,6 @@ function App() {
       <div className="app__body">
         <Hello/>
       </div>
-      {/*Hello */}
       {/*About Me */}
       {/*Projects */}
       {/*Footer */}
