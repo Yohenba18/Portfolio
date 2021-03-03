@@ -1,0 +1,35 @@
+.hello {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 500px;
+  background-color:	whitesmoke;
+}
+
+.hello__left{
+    padding-top: 100px;
+}
+
+.hello__left > h3{
+    font-weight: bolder;
+    font-size:20px
+}
+
+.hello__left > h1{
+    color: #2E004D;
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hello__left > footer{
+    color:#606060;
+
+}
+
+.hello__right > img {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  margin-right: 50px;
+}

@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header';
+import Hello from './Components/Hello';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       
 
       <div className="app__body">
-        
+        <Hello/>
       </div>
       {/*Hello */}
       {/*About Me */}
