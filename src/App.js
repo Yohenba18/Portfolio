@@ -3,10 +3,15 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
 
       {/* Header */}
       <Header/>
+      
+
+      <div className="app__body">
+        
+      </div>
       {/*Hello */}
       {/*About Me */}
       {/*Projects */}
