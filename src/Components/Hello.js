@@ -8,7 +8,7 @@ function Hello() {
       <div className="hello__left">
         <h3>Hey there, I'm </h3>
         <h1>Yohenba Kshetrimayum</h1>
-        <footer>just a guy interested in doing everything....</footer>
+        <footer>just a guy interested in exploring everything....</footer>
       </div>
       <div className="hello__right">
             <img src={me}></img>

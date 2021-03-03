@@ -19,6 +19,7 @@
 .header__left .header__title > h2{
     font-size: 40px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .header__center{
@@ -44,6 +45,7 @@
     justify-content: space-between;
     margin-top: 15px;
     padding:  10px;
+    
 }
 
 
