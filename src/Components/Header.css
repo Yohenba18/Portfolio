@@ -11,6 +11,11 @@
 
 .header__right{
     display: flex;
-    justify-content: space-evenly;
+}
 
+.header__options{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 10px;
 }

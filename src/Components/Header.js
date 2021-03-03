@@ -8,22 +8,22 @@ function Header() {
         <div className="header__left">
           <img src="" alt="" />
           <div className="header__title">
-            <h3>title</h3>
+            <h2>Header</h2>
           </div>
         </div>
 
         <div className="header__right">
           <div className="header__options">
-            <a href="">About Me</a>
+            <h2>About Me</h2>
           </div>
           <div className="header__options">
-            <a href="">Projects</a>
+            <h2>Projects</h2>
           </div>
           <div className="header__options">
-            <a href="">Hobbies</a>
+            <h2>Hobbies</h2>
           </div>
           <div className="header__options">
-            <a href="">Contact Me</a>
+            <h2>Contact Me</h2>
           </div>
         </div>
       </div>
