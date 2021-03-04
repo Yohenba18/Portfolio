@@ -4,7 +4,7 @@ import think from "../images/think.png"
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="about_me">
       <div className="about__left">
         <img src={think}></img>
       </div>

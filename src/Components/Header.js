@@ -18,12 +18,12 @@ function Header() {
         </div>
         <div className="header__center">
           <div className="header__options">
-              <a href="#">
+              <a href="#about_me">
                 <h3>About Me</h3>
               </a>
             </div>
             <div className="header__options">
-              <a href="#">
+              <a href="#project">
                 <h3>Projects</h3>
               </a>
             </div>
