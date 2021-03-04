@@ -1,4 +1,5 @@
 import './App.css';
+import About from './Components/About';
 import Header from './Components/Header';
 import Hello from './Components/Hello';
 
@@ -12,6 +13,7 @@ function App() {
 
       <div className="app__body">
         <Hello/>
+        <About/>
       </div>
       {/*About Me */}
       {/*Projects */}

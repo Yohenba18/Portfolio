@@ -1,0 +1,44 @@
+.about{
+    background-color: #8c8c8c;
+    color: white;
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    box-shadow: -1px -1px 22px 0px rgba(0,0,0,0.41);
+}
+
+.about__left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__left > img{
+    padding-left: 40px;
+    height: 70%;
+}
+
+.about__right{
+    padding-top: 50px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+
+.about__right > h1{
+    font-size: 60px;
+    font-weight:normal;
+    font-family:fantasy;
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.about__right > h3{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight:lighter;
+    line-height: 1.2cm;
+}

@@ -13,7 +13,7 @@ function Header() {
         <div className="header__left">
           {/* <CodeIcon/>*/}
           <div className="header__title">
-            <h2>Porfolio</h2>
+            <h2>Portfolio</h2>
           </div>
         </div>
         <div className="header__center">
