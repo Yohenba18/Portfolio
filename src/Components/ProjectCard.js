@@ -23,6 +23,7 @@ export default function ProjectCard({title,description, image , link}) {
   const classes = useStyles();
 
   return (
+    <a href={link}>
     <Card className={classes.root} id="card">
       <CardActionArea>
         <CardMedia
@@ -41,10 +42,11 @@ export default function ProjectCard({title,description, image , link}) {
       </CardActionArea>
       <CardActions>
         <Button size="small">
-         <a href={link} ><GitHubIcon/></a> 
+         <GitHubIcon/> 
         </Button>
       </CardActions>
     </Card>
+    </a> 
   );
 }
 
