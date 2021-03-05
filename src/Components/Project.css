@@ -1,6 +1,4 @@
 .project{
-
-    padding: 60px;
     display: flex;
     flex-direction: column;
     background-color:#f2f2f2;
@@ -8,13 +6,15 @@
 
 .project__title{
     text-align: center;
-    margin: 30px;
-    padding: 20px;
 }
 .project__title > h1{
     padding: 20px;
-    border: 3px solid green;
-    border-radius: 20px;
+    padding-top: 50px;
+    font-size:60px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:  #d3d3d3;
+    border-radius: 0 0 40px 40px;
+
 }
 
 .project__cards{
