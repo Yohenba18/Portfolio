@@ -18,6 +18,7 @@
 }
 
 .hello__left > h1{
+  text-shadow: 0px 2px 5px rgba(46, 0, 77, 0.62);
     color: #2E004D;
     font-weight: bolder;
     padding: 10px 0;

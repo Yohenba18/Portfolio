@@ -29,7 +29,7 @@ function Header() {
             </div>
             <div className="header__options">
               <a href="#">
-               <h3>Hobbies</h3>
+               <h3>Skills</h3>
               </a>
             </div>
         </div>
