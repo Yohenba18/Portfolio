@@ -3,6 +3,7 @@ import About from './Components/About';
 import Header from './Components/Header';
 import Hello from './Components/Hello';
 import Project from './Components/Project';
+import Experience from './Experience';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Hello/>
         <About/>
         <Project/>
+        <Experience/>
       </div>
       {/*Skills */}
       {/*Footer */}

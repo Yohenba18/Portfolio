@@ -1,0 +1,36 @@
+.experience{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    background: #6e6e6ed7;
+}
+
+.experience .experience__left{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.experience .experience__right{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.experience .experience__left > h1{
+    font-size: 65px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 5px;
+    color: rgba(0,0,0,.6);
+    text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+}
+
+.experience .experience__right> h3{
+    color: white;
+    margin: 20px 0;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
