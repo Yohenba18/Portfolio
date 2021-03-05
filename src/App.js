@@ -3,7 +3,7 @@ import About from './Components/About';
 import Header from './Components/Header';
 import Hello from './Components/Hello';
 import Project from './Components/Project';
-import Experience from './Experience';
+import Experience from './Components/Experience';
 
 function App() {
   return (
