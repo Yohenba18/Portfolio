@@ -2,7 +2,7 @@
     background-color: #8c8c8c;
     color: white;
     display: flex;
-    height: 600px;
+    /* height: 600px; */
     justify-content: space-evenly;
     box-shadow: -1px -1px 22px 0px rgba(0,0,0,0.41);
 }
@@ -16,6 +16,8 @@
 .about__left > img{
     padding-left: 40px;
     height: 70%;
+    object-fit: contain;
+    
 }
 
 .about__right{
