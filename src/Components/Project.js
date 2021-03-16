@@ -6,6 +6,7 @@ import linkedin from "../images/Linkedin.png";
 import portfolio from "../images/portfolio.png";
 import twitter from "../images/twitter.png";
 import instagram from "../images/instagram.png";
+import weather from "../images/weather.png";
 
 
 function Project() {
@@ -15,6 +16,12 @@ function Project() {
         <h1>PROJECTS</h1>
       </div>
       <div className="project__cards">
+        <ProjectCard
+          title="Weather-App"
+          description="Weather app made using reactJS and openweatherapp API"
+          link="https://github.com/Yohenba18/Weather-app"
+          image={weather}
+        />
         <ProjectCard
           title="Facebook clone"
           description="Guided projects to practice Frontend devlopment and backend with Firebase and Firestore with authentication"
