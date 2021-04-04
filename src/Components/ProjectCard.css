@@ -3,6 +3,10 @@
     margin-top: 30px;
 }
 
-a {
+a{
     text-decoration: none !important;
   }
+
+CardMedia{
+    overflow: scroll !important;
+}

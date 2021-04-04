@@ -7,6 +7,7 @@ import portfolio from "../images/portfolio.png";
 import twitter from "../images/twitter.png";
 import instagram from "../images/instagram.png";
 import weather from "../images/weather.png";
+import quiz from "../images/quiz.png";
 
 
 function Project() {
@@ -16,6 +17,12 @@ function Project() {
         <h1>PROJECTS</h1>
       </div>
       <div className="project__cards">
+        <ProjectCard
+          title="Quiz-App"
+          description="Quiz app made using reactJS"
+          link="https://github.com/Yohenba18/Quiz-app"
+          image={quiz}
+        />
         <ProjectCard
           title="Weather-App"
           description="Weather app made using reactJS and openweatherapp API"
