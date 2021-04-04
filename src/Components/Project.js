@@ -19,7 +19,7 @@ function Project() {
       <div className="project__cards">
         <ProjectCard
           title="Quiz-App"
-          description="Quiz app made using reactJS"
+          description="Quiz game app made using reactJS and react hooks"
           link="https://github.com/Yohenba18/Quiz-app"
           image={quiz}
         />
